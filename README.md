@@ -24,12 +24,8 @@ The `SessionStart` hook from `aslan-core` must be listed.
 
 ## Use with Claude Code on the web
 
-Two options are available:
-
-1. Enable `aslan-core` in **Claude > Customize > Plugins** so it is synced to
-   cloud sessions.
-2. Declare the marketplace and plugin in a repository's
-   `.claude/settings.json`:
+Declare the marketplace and plugin in each repository's
+`.claude/settings.json`:
 
 ```json
 {
@@ -47,8 +43,15 @@ Two options are available:
 }
 ```
 
-The second option makes the dependency explicit for every cloud session opened
-on that repository.
+This makes the dependency explicit for every cloud session opened on that
+repository. The connected GitHub account must be allowed to read the private
+`aslan-ai` repository.
+
+Team and Enterprise administrators can alternatively register the marketplace
+for their organization from <https://claude.ai/admin-settings/plugins>.
+Individual private marketplaces do not have a documented account-wide sync
+flow, so repository settings are the reliable option for personal cloud
+sessions.
 
 ## Update
 
