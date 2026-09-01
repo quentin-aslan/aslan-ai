@@ -1,0 +1,16 @@
+{
+  "name": "aslan-ai",
+  "owner": {
+    "name": "Quentin Aslan",
+    "url": "https://github.com/quentin-aslan"
+  },
+  "description": "Personal Claude plugins and reusable AI workflows.",
+  "plugins": [
+    {
+      "name": "aslan-core",
+      "source": "./plugins/aslan-core",
+      "description": "Loads Quentin's permanent communication and coding preferences.",
+      "version": "0.1.0"
+    }
+  ]
+}

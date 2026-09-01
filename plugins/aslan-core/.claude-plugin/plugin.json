@@ -1,0 +1,9 @@
+{
+  "name": "aslan-core",
+  "description": "Loads Quentin's permanent communication and coding preferences.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Quentin Aslan"
+  },
+  "repository": "https://github.com/quentin-aslan/aslan-ai"
+}
