@@ -1,7 +1,7 @@
 {
   "name": "aslan-core",
-  "description": "Loads Quentin's permanent communication and coding preferences.",
-  "version": "0.1.0",
+  "description": "Loads Quentin's permanent communication and coding preferences, and corrects commit authorship.",
+  "version": "0.3.0",
   "author": {
     "name": "Quentin Aslan"
   },
