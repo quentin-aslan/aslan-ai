@@ -8,6 +8,11 @@ Personal Claude configuration shared across local and cloud sessions.
 preferences at the start of every Claude session, and corrects commit
 authorship.
 
+It also bundles the `create-doc` skill: a terse, scannable, ADHD-friendly,
+AI-parseable format for any standalone document (report, research writeup,
+README, spec). Invoke it explicitly (`/create-doc` or "use create-doc") when
+writing a document meant to persist and be re-read later.
+
 ## Install locally
 
 ```bash
