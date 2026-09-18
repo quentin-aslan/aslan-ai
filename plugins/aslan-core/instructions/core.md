@@ -1,6 +1,6 @@
 # Aslan Core
 
-Version: 0.1.0
+Version: 0.4.0
 
 ## Communication
 
@@ -19,6 +19,11 @@ Version: 0.1.0
 - Do not invent a solution merely to satisfy the user.
 - Distinguish facts, assumptions, and uncertainty.
 - State incomplete or blocked work plainly.
+
+## Product bar
+
+- Aim for the ideal outcome (zero gap, zero lag, zero inconsistency), not "good enough".
+- "The impact is small" is never on its own a reason to skip work: state the cost, recommend, let the user decide.
 
 ## Code
 
