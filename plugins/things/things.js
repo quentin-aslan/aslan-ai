@@ -93,6 +93,7 @@ const actions = {
   update(req) {
     const t = todo(req.id);
     if (req.title) t.name = req.title;
+    if (req.notes != null) t.notes = req.notes;
     if (req.append_notes) t.notes = (t.notes() ? t.notes() + '\n\n' : '') + req.append_notes;
     if (req.tags != null) t.tagNames = req.tags;
     return serialize(t);
