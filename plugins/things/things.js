@@ -18,6 +18,8 @@ function serialize(t) {
     id: p.id, title: p.name, notes: (p.notes || '').slice(0, 500), status: p.status,
     when: iso(p.activationDate), deadline: iso(p.dueDate), tags: p.tagNames || '',
     project: name(t.project), area: name(t.area),
+    completed_ms: p.completionDate ? p.completionDate.getTime() : null,
+    modified_ms: p.modificationDate ? p.modificationDate.getTime() : null,
   };
 }
 
@@ -61,6 +63,9 @@ const actions = {
       out = out.concat(r.items);
     }
     return { query: req.query, count: out.length, items: out };
+  },
+  get_many(req) {
+    return req.ids.map(id => { try { return serialize(todo(id)); } catch (e) { return null; } });
   },
   list_one(req) {
     return serialize(todo(req.id));
