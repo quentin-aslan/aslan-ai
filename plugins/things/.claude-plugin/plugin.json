@@ -1,0 +1,7 @@
+{
+  "name": "things",
+  "description": "Things 3 MCP server (macOS): read and write Quentin's single task list with his rules enforced (Today max 9, waiting items need a check date, no delete).",
+  "version": "0.1.0",
+  "author": { "name": "Quentin Aslan" },
+  "repository": "https://github.com/quentin-aslan/aslan-ai"
+}

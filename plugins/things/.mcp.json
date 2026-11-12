@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "things": { "command": "/usr/bin/python3", "args": ["${CLAUDE_PLUGIN_ROOT}/server.py"] }
+  }
+}

@@ -11,6 +11,12 @@
       "source": "./plugins/aslan-core",
       "description": "Loads Quentin's permanent communication and coding preferences, and corrects commit authorship.",
       "version": "0.3.0"
+    },
+    {
+      "name": "things",
+      "source": "./plugins/things",
+      "description": "Things 3 MCP server (macOS) with Quentin's task rules enforced.",
+      "version": "0.1.0"
     }
   ]
 }
