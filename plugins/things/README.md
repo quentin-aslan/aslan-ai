@@ -13,7 +13,7 @@ Claude reads and writes Quentin's Things 3, with his rules enforced in code. Met
 | `things_update` | Rename, append notes, replace tags |
 
 ## Rules (server-side)
-- No delete, no bulk tool; max 10 writes per session.
+- No delete, no bulk tool; max 25 writes per session.
 - Today capped at 9 open to-dos: the write is refused, Claude must ask what to move out.
 - `waiting_until` → "⏳ " prefix + tag `En attente` + scheduled on the check date; a ⏳ title without it is refused.
 - complete / schedule / update only on ids returned earlier in the same session.

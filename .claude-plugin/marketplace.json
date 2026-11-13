@@ -16,7 +16,7 @@
       "name": "things",
       "source": "./plugins/things",
       "description": "Things 3 MCP server (macOS) with Quentin's task rules enforced.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
